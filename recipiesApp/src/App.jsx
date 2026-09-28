@@ -7,12 +7,14 @@ import CreateRecipe from "./pages/CreateRecipe"
 function App() {
 
   return (
+    
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home />} />
         <Route path="/create-recipe" element={<CreateRecipe/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
+    
   )
 }
 
