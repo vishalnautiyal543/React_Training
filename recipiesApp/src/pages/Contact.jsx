@@ -13,8 +13,8 @@ export default function Contact() {
   return (
 
     <>
+    <main className="mx-auto max-w-6xl mb-5 px-4 py-3">
     <Navbar/>
-    <main className="mx-auto max-w-6xl mb-10 px-4 py-12">
         {/* left section */}
       <section className="grid gap-8 rounded-2xl bg-white p-6 shadow-md sm:p-8 lg:grid-cols-[1.1fr_1.4fr]">
         <div className="flex flex-col justify-center rounded-xl bg-linear-to-br from-orange-50 to-yellow-50 p-6">
@@ -98,8 +98,8 @@ export default function Contact() {
           )}
         </div>
       </section>
-    </main>
     <Footer/>
+    </main>
     </>
   );
 }

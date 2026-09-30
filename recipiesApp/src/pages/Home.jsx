@@ -9,7 +9,9 @@ function Home() {
 
   const {recipies} =useRecipe()
 
-  
+  //  const localStorageData =localStorage.getItem("result")
+
+  //  const recipies = JSON.parse(localStorageData)
 
   return (
     <>
